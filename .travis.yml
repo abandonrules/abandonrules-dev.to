@@ -3,7 +3,9 @@ cache:
   directories:
     - ~/.npm
 node_js:
-  - '11'
+  - '12'
+  - '14'
+  - '16'
 script:
   - yarn run prettier:check
 after_success:
